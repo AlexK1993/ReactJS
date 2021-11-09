@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.message h1 {
+  color: red;
+  font-size: 3em;
+}
+
+.message h2 {
+  font-size: 2em;
+  color: white;
+  background-color: black;
+}
+/* не понимаю почему не работает */
