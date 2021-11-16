@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.message h1 {
+/* .message h1 {
   color: red;
   font-size: 3em;
 }
@@ -21,5 +21,30 @@ code {
   font-size: 2em;
   color: white;
   background-color: black;
+} */
+
+body {
+  width: 1400px;
+  background-color: #fffdf0f3;
 }
-/* не понимаю почему не работает */
+.container {
+  margin-top: 10%;
+  margin-left: 70%;
+  border: 5px solid #a0f5f5;
+}
+
+.message {
+  padding: 1rem;
+  margin: 1rem;
+  border-color: #a0f5f5;
+  background-color: #fcfcfcce;
+  border-radius: 0.3rem;
+}
+.message-button {
+  border-color: #a0f5f5;
+  background-color: #fcfcfcce;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+}
